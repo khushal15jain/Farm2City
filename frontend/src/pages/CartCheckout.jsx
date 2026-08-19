@@ -102,7 +102,7 @@ const CartCheckout = () => {
   return (
     <div className="container fade-in" style={{ padding: '40px 0 80px 0' }}>
       <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: '2rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '30px' }}>
-        🛒 Agricultural Checkout & Review
+        Agricultural Checkout & Review
       </h1>
 
       {cart.length === 0 ? (

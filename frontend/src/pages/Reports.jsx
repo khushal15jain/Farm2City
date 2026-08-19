@@ -102,7 +102,7 @@ const Reports = () => {
       ) : (
         <div className="card" style={{ padding: '24px' }}>
           <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.2rem', fontWeight: 700, marginBottom: '16px' }}>
-            📊 Statement for {user?.name} ({user?.role.toUpperCase()})
+            Statement for {user?.name} ({user?.role.toUpperCase()})
           </h3>
 
           {user?.role === 'farmer' && reportData?.productSales && (

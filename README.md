@@ -1,10 +1,10 @@
-# 🌱 FARM2CITY — Direct Agri-Marketplace Platform
+# FARM2CITY — Direct Agri-Marketplace Platform
 
 **FARM2CITY** is a highly modern, complete, and responsive full-stack agricultural marketplace that connects rural farmers directly with urban city customers. By eliminating intermediate middlemen, farmers maximize their crop yield returns while customers secure fresh organic produce at highly competitive rates.
 
 ---
 
-## 🚀 Key Features & Highlights
+## Key Features & Highlights
 
 1. **Zero-Configuration Offline Fallback Database**:
    - Features a dual-mode database engine. When started, it attempts a Mongoose connection to MongoDB. If MongoDB is offline, it automatically falls back to an in-memory/JSON-file database (`backend/data/offline_db.json`).
@@ -19,7 +19,7 @@
 
 ---
 
-## 🔑 Demo Credentials (Pre-seeded)
+## Demo Credentials (Pre-seeded)
 
 Use these credentials to test the role-specific dashboards (password for all is `password123`):
 
@@ -29,7 +29,7 @@ Use these credentials to test the role-specific dashboards (password for all is 
 
 ---
 
-## 🏃‍♂️ Quick Start
+## Quick Start
 
 ```bash
 # 1. Install all dependencies for root, backend, and frontend

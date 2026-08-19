@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
     <div className="card" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '16px', position: 'relative' }}>
       {product.isOrganic && (
         <span className="badge badge-organic" style={{ position: 'absolute', top: '24px', left: '24px', zIndex: 1, boxShadow: 'var(--shadow-sm)' }}>
-          🌱 100% Organic
+          100% Organic
         </span>
       )}
 

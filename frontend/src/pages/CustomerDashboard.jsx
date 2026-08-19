@@ -114,7 +114,7 @@ const CustomerDashboard = () => {
       <div className="card" style={{ padding: '24px' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
           <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.2rem', fontWeight: 700 }}>
-            🛍️ Direct Purchase Ledger ({orders.length})
+            Direct Purchase Ledger ({orders.length})
           </h3>
           <Link to="/delivery-tracking" style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '0.85rem' }}>
             Open Live SVG Delivery Tracker ➔

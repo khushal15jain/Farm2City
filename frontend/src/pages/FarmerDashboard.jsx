@@ -154,7 +154,7 @@ const FarmerDashboard = () => {
         {/* LEFT: PRODUCTS LIST TABLE */}
         <div className="card" style={{ padding: '24px' }}>
           <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.2rem', fontWeight: 700, marginBottom: '20px' }}>
-            🌾 Your Listed Crops ({products.length})
+            Your Listed Crops ({products.length})
           </h3>
 
           {loading ? (

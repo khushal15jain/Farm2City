@@ -173,7 +173,7 @@ const DeliveryTracker = () => {
             {/* SVG ROAD MAP */}
             <div className="card" style={{ padding: '24px', overflow: 'hidden' }}>
               <h4 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.1rem', fontWeight: 700, marginBottom: '20px' }}>
-                🛣️ Direct Harvest Highway Telemetry
+                Direct Harvest Highway Telemetry
               </h4>
 
               <div style={{ position: 'relative', width: '100%', height: '180px', backgroundColor: 'var(--bg-tertiary)', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)', overflow: 'hidden' }}>

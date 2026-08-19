@@ -96,7 +96,7 @@ const AdminDashboard = () => {
       {/* USER MANAGEMENT & BLOCK/UNBLOCK DIRECTORY */}
       <div className="card" style={{ padding: '24px' }}>
         <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.2rem', fontWeight: 700, marginBottom: '20px' }}>
-          👥 Registered User Directory & Governance
+          Registered User Directory & Governance
         </h3>
 
         {loading ? (
